@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.2rem 2.4rem;
+  max-width: 140rem;
+  margin: auto;
+}
+ul {
+  display: flex;
+  gap: 3.2rem;
+}
+a {
+  color: #4c4cb2;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+a.active {
+  color: #fff;
+  border-bottom: 2px solid #4c4cb2;
+}
+
+li {
+  list-style: none;
+}

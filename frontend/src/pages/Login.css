@@ -1,0 +1,60 @@
+.conatiner {
+  display: flex;
+  align-items: center;
+  max-width: 140rem;
+  margin: auto;
+}
+.left-box {
+  margin: 3rem;
+}
+.login-img img {
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.right-box .heading {
+  font-size: 3.2rem;
+  margin: 2rem;
+}
+.input-field {
+  margin: 2rem;
+}
+.input-field label {
+  display: block;
+  font-size: 1.8rem;
+}
+.input-field input,
+textarea {
+  width: 60rem;
+  padding: 1rem 2rem;
+  margin: 0.2rem 0;
+  border-radius: 0.5rem;
+  background-color: #363536;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.login-btn {
+  background-color: #555ad6;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+@media (max-width: 600px) {
+  .login-img img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .input-field input {
+    width: 40rem;
+    padding: 1rem 1rem;
+    margin: 0.2rem 0;
+  }
+}
